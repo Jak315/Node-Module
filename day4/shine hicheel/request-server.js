@@ -31,12 +31,12 @@ http.createServer((request, response) => {
         response.writeHead(200, { 'Content-Type': 'text/html' });
         response.write('does not match')
         response.end()
-    } else if (request.url === '/why') {
+    }
+    else if (request.url === '/why') {
         response.writeHead(200, { 'Content-Type': 'text/html' });
         response.write('does not match')
         response.end()
     }
-
     else if (request.url === '/hi') {
         response.writeHead(200, { 'Content-Type': 'text/html' });
         response.write('bye')
