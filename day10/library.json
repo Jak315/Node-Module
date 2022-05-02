@@ -1,0 +1,10 @@
+[
+  {
+    "user": { "id": 1, "name": "test" },
+    "book": { "id": 4, "name": "NOM" }
+  },
+  {
+    "user": { "id": 546, "name": "testy" },
+    "book": { "id": 6754, "name": "NOmM" }
+  }
+]
